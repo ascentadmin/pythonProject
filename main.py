@@ -13,3 +13,5 @@ for file_name in os.listdir(source_dir):
     # 파일 사이즈가 10MB 이상인 경우, 파일을 dest_dir로 이동
     if file_size_mb >= 10:
         shutil.move(file_path, dest_dir)
+
+# git에 수정본 커밋
